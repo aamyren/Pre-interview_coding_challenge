@@ -43,7 +43,7 @@ class Tensor():
 data0 =  [0, 1, 2, 3, 4, 5, 0.1, 0.2, -3]
 shape0 = [2, 3, 2]
 tensor0 = Tensor(data0, shape0)
-# expected output: [[[0, 1],[2, 3],[4, 5]],[[0.1, 0.2],[-3, 0],[0, 0]]]
+# expected output: [[[0, 1], [2, 3], [4, 5]], [[0.1, 0.2], [-3, 0], [0, 0]]]
 # example 1 output
 Tensor.shape_data(tensor0)
 
